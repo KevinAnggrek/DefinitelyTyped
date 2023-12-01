@@ -2603,8 +2603,10 @@ declare namespace Autodesk {
                 clear(): void;
                 clearSelection(): void;
                 delegate(): TreeDelegate;
+                destroy(): void
                 getElementForNode(node: any): HTMLElement;
                 getRootContainer(): string;
+                getSelection(): object[];
                 hasClass(node: object | number, className: string): boolean;
                 isCollapsed(group: object): boolean;
                 isSelected(node: object): boolean;
